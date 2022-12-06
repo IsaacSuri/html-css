@@ -29,8 +29,18 @@
         }
          
         thead, tfoot {
-            background-color: gray;
+            background-color: rgb(70, 70, 70);
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: rgb(70, 70, 70);
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
         }
         
         td.num {
@@ -74,6 +84,18 @@
             <tr>
                 <td>Rio de Janeiro</td>
                 <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td>14 873 064</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td>11 433 957</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td>11 377 239</td>
             </tr>
         </tbody>
         <tfoot>
